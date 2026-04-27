@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nofog-ce",
+  "version": "1.0.0",
+  "name": "No Fog CE",
+  "description": "Standalone mod to optimize and push back fog for maximum visibility.",
+  "authors": [
+    "chronicboy31"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "nofog.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "1.6.4"
+  }
+}
